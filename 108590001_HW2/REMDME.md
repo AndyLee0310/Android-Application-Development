@@ -10,7 +10,7 @@ If you're working through this codelab on your own, feel free to use these homew
 
 ## Change an app
 Open the [HelloToast](https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/HelloToast) app.
-1. Change the name of the project to **HelloConstraint**, and refactor the project to `Hello Constraint`. (For instructions on how to copy and refactor a project, see Appendix: Utilities.)
+1. Change the name of the project to **HelloConstraint**, and refactor the project to `Hello Constraint`. (For instructions on how to copy and refactor a project, see [Appendix: Utilities](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/appendix/appendix-utilities/appendix-utilities.html).)
 2. Modify the `activity_main.xml` layout to align the **Toast** and **Count** `Button` elements along the left side of the `show_count` `TextView` that shows "0". Refer to the figures below for the layout.
 3. Include a third `Button` called **Zero** that appears between the **Toast** and **Count** `Button` elements.
 4. Distribute the `Button` elements vertically between the top and bottom of the `show_count` `TextView`.
@@ -20,7 +20,7 @@ Open the [HelloToast](https://github.com/google-developer-training/android-funda
 8. Update the click handler for the **Count** `Button` so that it changes its own background color, depending on whether the new count is odd or even.
 Hint: Don't use `findViewById` to find the **Count** `Button`. Is there something else you can use?
 
-Feel free to to use constants in the `Color` class for the two different background colors.
+Feel free to to use constants in the [`Color`](https://developer.android.com/reference/android/graphics/Color.html) class for the two different background colors.
 
 9. Update the click handler for the **Count** `Button` to set the background color for the **Zero** `Button` to something other than gray to show it is now active. Hint: You can use `findViewById` in this case.
 10. Update the click handler for the **Zero** `Button` to reset the color to gray, so that it is gray when the count is zero.
@@ -56,7 +56,7 @@ The click handler for the **Count** `Button` starts with the following method si
 public void countUp(View view)
 ```
 Which of the following techniques is more efficient to use within this handler to change the `Button` element's background color? Choose one:
-- [ ] Use `findViewById` to find the **Count** `Button`. Assign the result to a `View` variable, and then use `setBackgroundColor()`.
+- [ ] Use `findViewById` to find the **Count** `Button`. Assign the result to a `View` variable, and then use [`setBackgroundColor()`](https://developer.android.com/reference/android/view/View.html#setBackgroundColor(int)).
 - [X] Use the `view` parameter that is passed to the click handler with `setBackgroundColor(): view.setBackgroundColor()`.
 
 ## Submit your app for grading
