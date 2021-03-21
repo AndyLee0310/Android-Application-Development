@@ -1,13 +1,4 @@
 # HW2
-This section lists possible homework assignments for students who are working through this codelab as part of a course led by an instructor. It's up to the instructor to do the following:
-- Assign homework if required.
-- Communicate to students how to submit homework assignments.
-- Grade the homework assignments.
-
-Instructors can use these suggestions as little or as much as they want, and should feel free to assign any other homework they feel is appropriate.
-
-If you're working through this codelab on your own, feel free to use these homework assignments to test your knowledge.
-
 ## Change an app
 Open the [HelloToast](https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/HelloToast) app.
 1. Change the name of the project to **HelloConstraint**, and refactor the project to `Hello Constraint`. (For instructions on how to copy and refactor a project, see [Appendix: Utilities](https://google-developer-training.github.io/android-developer-fundamentals-course-concepts-v2/appendix/appendix-utilities/appendix-utilities.html).)
