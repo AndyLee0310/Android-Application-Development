@@ -1,14 +1,4 @@
 # HW3_2.1
-
-This section lists possible homework assignments for students who are working through this codelab as part of a course led by an instructor. It's up to the instructor to do the following:
-- Assign homework if required.
-- Communicate to students how to submit homework assignments.
-- Grade the homework assignments.
-
-Instructors can use these suggestions as little or as much as they want, and should feel free to assign any other homework they feel is appropriate.
-
-If you're working through this codelab on your own, feel free to use these homework assignments to test your knowledge.
-
 ## Build and run an app
 Open the [HelloToast](https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/HelloToast) app that you created in a previous practical codelab.
 1. Modify the **Toast** button so that it launches a new `Activity` to display the word "Hello!" and the current count, as shown below.
