@@ -1,13 +1,4 @@
 # HW3_1.3
-This section lists possible homework assignments for students who are working through this codelab as part of a course led by an instructor. It's up to the instructor to do the following:
-- Assign homework if required.
-- Communicate to students how to submit homework assignments.
-- Grade the homework assignments.
-
-Instructors can use these suggestions as little or as much as they want, and should feel free to assign any other homework they feel is appropriate.
-
-If you're working through this codelab on your own, feel free to use these homework assignments to test your knowledge.
-
 ## Change an app
 Open the [ScrollingText2](https://github.com/google-developer-training/android-fundamentals/tree/master/ScrollingText2) app that you created in the **Working with TextView Elements** lesson.
 1. Change the subheading so that it wraps within a column on the left that is 100 dp wide, as shown below.
