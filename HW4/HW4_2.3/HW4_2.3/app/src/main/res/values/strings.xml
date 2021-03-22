@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">108590001_HW4</string>
+
+    <string name="webSite_EditText">http://developer.android.com</string>
+    <string name="openWeb_Btn">open Website</string>
+
+    <string name="Location_EditText">Golden Gate Bridge</string>
+    <string name="openLocation_Btn">Open Location</string>
+
+    <string name="ShareText_EditText">ShareText_EditText</string>
+    <string name="Share_Btn">Share This Text</string>
+
+    <string name="TakePicture_Btn">Take A Picture</string>
+</resources>
