@@ -3,8 +3,10 @@
 Open the [ImplicitIntents](https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/ImplicitIntents) app that you created.
 1. Add another button at the bottom of the screen.
 2. When the `Button` is clicked, launch a camera app to take a picture. (You don't need to return the picture to the original app.)
+    ```
     **Note**:
     If you use the Android emulator to test the camera, open the emulator configuration in the Android AVD manager, choose **Advanced Settings**, and then choose **Emulated** for both front and back cameras. Restart your emulator if necessary.
+    ```
 ![Implicit_Lntents](00_img/Implicit_Lntents.png)
 
 ## Answer these questions
