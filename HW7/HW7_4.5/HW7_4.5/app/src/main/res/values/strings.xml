@@ -1,0 +1,60 @@
+<!--
+  ~ Copyright (C) 2018 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">108590001_HW7</string>
+    <string name="action_settings">Settings</string>
+    <string name="TitleView">TextView</string>
+    <string name="image_view">test</string>
+    <string name="textview">TextView</string>
+
+    <string name="lorem">Lorem ipsum dolor sit amet, eu cum velit elitr, antiopam similique ut est. No reque latine fuisset sea. Sit homero splendide honestatis ut, ex purto persequeris qui. Eu veri homero numquam nec, eos sonet aliquid et. Ea purto suavitate contentiones eam, ancillae pericula sententiae eos ad, utinam viderer vis ex. Ignota indoctum ocurreret te vix, commodo pericula adolescens ea sit. Ut usu cetero latine. Percipitur assueverit vix at. Mea dolor erroribus vituperata eu. Ad sea quas copiosae imperdiet, justo minim tantas quo in. Et prima laboramus dissentias eos, summo latine phaedrum ei has. Ei autem ignota erroribus eam, mentitum interpretaris mel ei. Mei ut stet justo indoctum, pro nostro pericula cu. Modus fastidii reprimique et vel, amet tation postulant ne quo, at his sale voluptaria. An est suscipit scaevola. Sed pericula contentiones ex, te nostro fuisset assentior nec. Principes percipitur ut vis, eu tempor civibus mei. Graeci pertinacia interpretaris vim ad, summo inermis ut vix. Saepe altera moderatius cum no. Officiis recusabo facilisis ad qui, his latine constituto ad. In mea volumus efficiendi. Usu fierent iracundia no, tantas primis ex cum. Prima consetetur at qui, cu euripidis argumentum nec, te mei aliquip civibus delicatissimi. Vel deleniti vulputate tincidunt id, ubique putant option ea eum. No velit elitr argumentum per, nostrum appareat deserunt no vel.</string>
+    <string name="textTitle">TextView</string>
+
+    <string name="bun">包子皮
+                        中筋麵粉 450 克
+                        糖 45 克
+                        鹽 少許
+                        酵母 7.5 克
+                        水 210-225 毫升
+                        植物油 1.5 大匙
+                        菜肉餡
+                        豬絞肉 450 克
+                        高麗菜 適量
+                        薑末 1 小塊
+                        青蔥 2 支
+                        油蔥酥 2 大匙
+                        醬油 1 大匙
+                        糖 1.5 小匙
+                        鹽 1 小匙
+                        白胡椒 少許
+                        米酒 1.5 大匙
+                        水 50 毫升
+                        香油 1.5 大匙</string>
+
+    <string name="Dumplings">豬瘦絞肉 840公克
+                            豬肥絞肉 360公克
+                            薑末 30公克
+                            蔥花 40公克
+                            調味料：
+                            鹽 2茶匙
+                            細砂糖 1大匙
+                            醬油 40cc
+                            紹興酒 60cc
+                            水 100cc
+                            白胡椒粉 2茶匙
+                            香油 4大匙</string>
+</resources>
