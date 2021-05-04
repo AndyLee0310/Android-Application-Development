@@ -1,14 +1,8 @@
 # HW4_2.2
-## Build and run an app
-1. Create an app with a layout that holds a counter TextView, a Button to increment the counter, and an EditText. See the screenshot below as an example. You don't have to precisely duplicate the layout.
-2. Add a click handler for the Button that increments the counter.
-3. Run the app and increment the counter. Enter some text into the EditText.
-4. Rotate the device. Note that the counter is reset, but the EditText is not.
-5. Implement onSaveInstanceState() to save the current state of the app.
-6. Update onCreate() to restore the state of the app.
-7. Make sure that when you rotate the device, the app state is preserved.
-![CounterHomework](00_img/CounterHomework.png)
 
+### ref:
+##### https://developer.android.com/codelabs/android-training-activity-lifecycle-and-state?index=..%2F..%2Fandroid-training#8
+------
 
 ## Answer these questions
 ### Question 1
@@ -38,12 +32,3 @@ Which Activity lifecycle methods are best to use for saving data before the Acti
 - [ ] `onResume()` or `onCreate()`
 - [ ] `onDestroy()`
 - [ ] `onStart()` or `onRestart()`
-
-## Submit your app for grading
-### Guidance for graders
-Check that the app has the following features:
-- It displays a counter, a `Button` to increment that counter, and an `EditText`.
-- Clicking the `Button` increments the counter by 1.
-- When the device is rotated, both the counter and `EditText` states are retained.
-- The implementation of `MainActivity.java` uses the `onSaveInstanceState()` method to store the counter value.
-- The implementation of `onCreate()` tests for the existence of the `outState` `Bundle`. If that `Bundle` exists, the counter value is restored and saved to the `TextView`.
