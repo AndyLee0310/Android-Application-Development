@@ -1,9 +1,8 @@
 # HW3_2.1
-## Build and run an app
-Open the [HelloToast](https://github.com/google-developer-training/android-fundamentals-apps-v2/tree/master/HelloToast) app that you created in a previous practical codelab.
-1. Modify the **Toast** button so that it launches a new `Activity` to display the word "Hello!" and the current count, as shown below.
-2. Change the text on the `Toast` button to Say Hello.
-![Activity](00_img/Activity.png)
+
+### ref:
+##### https://developer.android.com/codelabs/android-training-create-an-activity?index=..%2F..%2Fandroid-training#11
+------
 
 ## Answer these questions
 ### Question 1
@@ -40,13 +39,3 @@ In the HelloToast app homework, how do you display the current count in the seco
 - [ ] Get the current count value out of the `Intent`.
 - [ ] Update the `TextView` for the count.
 - [X] All of the above.
-
-## Submit your app for grading
-### Guidance for graders
-Check that the app has the following features:
-- It displays the **Say Hello** button instead of the **Toast** button.
-- The second `Activity` starts when the Say Hello button is pressed, and it displays the message "Hello!" and the current count from `MainActivity`.
-- The second `Activity` Java and XML layout files have been added to the project.
-- The XML layout file for the second `Activity` contains two `TextView` elements, one with the string "Hello!" and the second with the `count`.
-- It includes an implementation of a click handler method for the **Say Hello** button (in `MainActivity`).
-- It includes an implementation of the `onCreate()` method for the second `Activity` and updates the count `TextView` with the `count` from `MainActivity`.
