@@ -1,13 +1,11 @@
 # HW1
-## Build and run an app
-- Create a new Android project from the Empty Template.
-- Add logging statements for various log levels in onCreate() in the main activity.
-- Create an emulator for a device, targeting any version of Android you like, and run the app.
-- Use filtering in Logcat to find your log statements and adjust the levels to only display debug or error logging statements.
+
+### ref:
+##### https://developer.android.com/codelabs/android-training-hello-world#12
+------
 
 ## Answer these questions
 ### Question 1
-
 What is the name of the layout file for the main activity?
 
 - [ ] MainActivity.java
@@ -17,7 +15,6 @@ What is the name of the layout file for the main activity?
 
 ### Question 2
 What is the name of the string resource that specifies the application's name?
-
 - [x] app_name
 - [ ] xmlns:app
 - [ ] android:name
@@ -25,7 +22,6 @@ What is the name of the string resource that specifies the application's name?
 
 ### Question 3
 Which tool do you use to create a new emulator?
-
 - [ ] Android Device Monitor
 - [x] AVD Manager
 - [ ] SDK Manager
@@ -37,16 +33,9 @@ Assume that your app includes this logging statement:
  Log.i("MainActivity", "MainActivity layout is complete");
 ```
 You see the statement "MainActivity layout is complete" in the Logcat pane if the Log level menu is set to which of the following? (Hint: multiple answers are OK.)
-
 - [x] Verbose
 - [x] Debug
 - [x] Info
 - [ ] Warn
 - [ ] Error
 - [ ] Assert
-
-## Submit your app for grading
-Check to make sure the app has the following:
-- An `Activity` that displays "Hello World" on the screen.
-- Log statements in `onCreate()` in the main activity.
-- Log level in the **Logcat** pane shows only debug or error logging statements.
