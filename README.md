@@ -8,6 +8,7 @@
  - [HW5](./HW5)
  - [HW6](./HW6)
  - [HW7](./HW7)
+ - [HW8](./HW8)
 
 ### LICENSE
  - [GNU GENERAL PUBLIC LICENSE 3.0](./LICENSE)
