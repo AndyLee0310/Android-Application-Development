@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">108590001_HW12</string>
+    <string name="button">Download Now</string>
+    <string name="ChannelDesc">Large file download notification</string>
+    <string name="ChannelName">Download Notification</string>
+    <string name="notify_title">Performing Work</string>
+    <string name="notify_text">Download in Progress</string>
+</resources>
