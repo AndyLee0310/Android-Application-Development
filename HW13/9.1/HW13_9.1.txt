@@ -1,0 +1,14 @@
+Q1
+In which lifecycle method do you save the app state to shared preferences?
+Ans:
+onPause()
+
+Q2
+In which lifecycle method do you restore the app state?
+Ans:
+onCreate()
+
+Q3
+Can you think of a case where it makes sense to have both shared preferences and instance state?
+Ans:
+使用shared preferences保存登錄狀態，使用instance state保存和傳遞登錄信息。
